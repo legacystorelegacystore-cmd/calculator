@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="userInput">
+        <input class="input calculate" type="text" id="input_user" disabled> <br/>
+        <input class="input result" type="text" id="result_input" disabled>
+        
+        <div class="btnBox">
+            <button class="space" onclick="calculate('clear')">C</button>
+            <button onclick="calculate('del')">D</button>
+            <button onclick="calculate('/')">/</button>
+            <button class="btn-color" onclick="calculate('*')">x</button> <br/>
+            <button class="space" onclick="calculate('7')">7</button>
+            <button onclick="calculate('8')">8</button>
+            <button onclick="calculate('9')">9</button>
+            <button class="btn-color" onclick="calculate('-')">-</button> <br/>
+            <button class="space" onclick="calculate('4')">4</button>
+            <button onclick="calculate('5')">5</button>
+            <button onclick="calculate('6')">6</button>
+            <button class="plus btn-color" onclick="calculate('+')">+</button> <br/>
+            <button class="space" onclick="calculate('1')">1</button>
+            <button onclick="calculate('2')">2</button>
+            <button onclick="calculate('3')">3</button>
+            <button class="equal btn-color" onclick="calculate('=')">=</button> <br/> 
+            <button class="zero" onclick="calculate('0')">0</button>
+            <button class="point btn-color" onclick="calculate('.')">.</button>
+        </div>
+        </div>
+    </div>
+    <script src="./assets/app.js"></script>
+</body>
+</html>
