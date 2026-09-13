@@ -17,48 +17,55 @@ body{
     background-color: rgb(41, 41, 41);
 }
 .calculate{
-    height: 50px;
+    height: 70px;
     border-bottom: none;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: white;
     background-color: rgb(41, 41, 41);
     border-radius: 35px;
-    padding-left: 10px;
+    padding-left: 25px;
 }
 .result{
-    height: 50px;
+    height: 70px;
     border-top: none;
     margin-bottom: 5px;
-    font-size: 2.5rem;
-    padding-left: 10px;
+    font-size: 3.5rem;
+    padding-left: 25px;
 }
 button{
     height: 55px;
     width: 55px;
     margin: 5px;
-    border-radius: 15px;
+    border-radius: 50%;
     font-size: 25px;
-    border-color: rgb(255, 68, 0);
-    color: rgb(255, 68, 0);
-    background-color: rgba(255, 68, 0, 0.18);
+    font-weight: lighter;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(35, 35, 35);
+    box-shadow: 0px 0px 5px rgb(204, 201, 201);
+}
+.color{
+    background-color: rgb(57, 56, 56);
 }
 .zero{
-    width: 150px;
+    width: 125px;
     margin-left: 38px;
-}
-.point{
-    margin-left: 29px;
+    border-radius: 100px;
 }
 .space{
-    margin-left: 20px;
+    margin-left: 30px;
 }
 .btn-color{
     background-color: rgb(255, 68, 0);
     border: none;
-    box-shadow: inset 0 0 15px rgb(102, 27, 0);
+    /* box-shadow: inset 0 0 15px rgb(102, 27, 0); */
     color: white;
 }
 .userInput{
-    border: 2px solid rgb(255, 68, 0);
-    border-radius: 30px;
+    border: 5px solid rgb(255, 68, 0);
+    border-radius: 20px;
+}
+.sizing{
+    font-size: 35px;
+    font-weight: lighter;
 }

@@ -18,6 +18,10 @@ function calculate(btnValue){
     userResult.value = del;
     userInput.value = cel;
     }
+    else if(btnValue == '%'){
+    var percent = Number (userResult.value) / 100;
+    userResult.value = percent;
+}
     else{
         userInput.value += btnValue;
     }
